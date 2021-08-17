@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WJX的菜鸡博客</title>
+  
+  <subtitle>考研中~~</subtitle>
+  <link href="http://www.wjxblog.cn/atom.xml" rel="self"/>
+  
+  <link href="http://www.wjxblog.cn/"/>
+  <updated>2021-08-14T07:33:08.581Z</updated>
+  <id>http://www.wjxblog.cn/</id>
+  
+  <author>
+    <name>FL-WJX</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="http://www.wjxblog.cn/archives/undefined.html"/>
+    <id>http://www.wjxblog.cn/archives/undefined.html</id>
+    <published>2021-08-14T07:33:08.580Z</published>
+    <updated>2021-08-14T07:33:08.581Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a href=&quot;https://hexo.io/docs/&quot;&gt;documentation&lt;/a&gt;</summary>
+        
+      
+    
+    
+    
+    
+  </entry>
+  
+</feed>
