@@ -4,33 +4,6 @@
   
     
     <entry>
-      <title>c语言的一些用法</title>
-      <link href="/archives/123456.html"/>
-      <url>/archives/123456.html</url>
-      
-        <content type="html"><![CDATA[<h1 id="C语言中的-和-的不同点，-define里的-用法"><a href="#C语言中的-和-的不同点，-define里的-用法" class="headerlink" title="C语言中的#和##的不同点，#define里的\用法"></a>C语言中的#和##的不同点，#define里的\用法</h1><p>首先#和##两个标识符都是用来预编译的，如果<img src="782bd3b02a77577bda15bdf04b0726f4.png" alt="截图"></p><p>只要这个变量有被定义为1时候，这个预编译就会启用</p><p>##标识符的话就是</p><p><img src="1d033cfab710d4941dab4ec4684adef9.png" alt="截图"></p><p>在这个#define的函数里 const osThreadDef_t os_thread_def_##name中  </p><p>如果name有定于 例如 name = start_thread</p><p>那么就会显示</p><p>const osThreadDef_t os_thread_def_start_thread</p><p>##的含义就是会和前面的字符一起连接在一起</p><p>\的标识符的含义是连续的符号 ，如果#define a \ </p><p>const abc= 111</p><p>就可以连接  </p><p>注意\后面除了换行回车不能有任何字符，空格也不行。</p>]]></content>
-      
-      
-      <categories>
-          
-          <category> C语言 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> 基础 </tag>
-            
-            <tag> 抽象数据类 </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
       <title>数据结构之基础</title>
       <link href="/archives/46208.html"/>
       <url>/archives/46208.html</url>
@@ -77,6 +50,33 @@
             <tag> 线性表 </tag>
             
             <tag> List </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>c语言的一些用法</title>
+      <link href="/archives/123456.html"/>
+      <url>/archives/123456.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="C语言中的-和-的不同点，-define里的-用法"><a href="#C语言中的-和-的不同点，-define里的-用法" class="headerlink" title="C语言中的#和##的不同点，#define里的\用法"></a>C语言中的#和##的不同点，#define里的\用法</h1><p>首先#和##两个标识符都是用来预编译的，如果<img src="./782bd3b02a77577bda15bdf04b0726f4.png" alt="截图"></p><p>只要这个变量有被定义为1时候，这个预编译就会启用</p><p>##标识符的话就是</p><p><img src="./1d033cfab710d4941dab4ec4684adef9.png" alt="截图"></p><p>在这个#define的函数里 const osThreadDef_t os_thread_def_##name中  </p><p>如果name有定于 例如 name = start_thread</p><p>那么就会显示</p><p>const osThreadDef_t os_thread_def_start_thread</p><p>##的含义就是会和前面的字符一起连接在一起</p><p>\的标识符的含义是连续的符号 ，如果#define a \ </p><p>const abc= 111</p><p>就可以连接  </p><p>注意\后面除了换行回车不能有任何字符，空格也不行。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> C语言 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 基础 </tag>
+            
+            <tag> 抽象数据类 </tag>
             
         </tags>
       
